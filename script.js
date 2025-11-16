@@ -47,7 +47,7 @@ function findMaxNumber(numArray) {
 console.log(findMaxNumber(numArray));
 
 //რამდენჯერ მეორდება ელემენტი მასივში
-function howManyTImes(x) {
+function howManyTimes(x) {
   let numbers = [1, 2, 4, 2, 6, 6, 2];
   let count = 0;
   let i = 0;
@@ -59,8 +59,8 @@ function howManyTImes(x) {
   }
   return count;
 }
-console.log(howManyTImes(2));
-console.log(howManyTImes(6));
+console.log(howManyTimes(2));
+console.log(howManyTimes(6));
 
 //ყველაზე გრძელი სტრინგის პოვნა მასივში
 const wordsArray = ["apple", "banana", "watermelon", "kiwi", "strawberry"];
